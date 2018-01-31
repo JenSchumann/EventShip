@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="EventShip">
   <head>
     <meta charset="utf-8">
     <title>EventShip</title>
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" charset="utf-8"></script>
+
+    <script src="/js/app.js" charset="utf-8"></script>
+
   </head>
-  <body>
-{{ 5 * 2 }}
+  <body ng-controller="EventController as ctrl">
+<h1>Let's get this {{ctrl.opp}}</h1>
   </body>
 </html>
