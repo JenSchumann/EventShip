@@ -1,0 +1,23 @@
+{
+  "name": "eventship",
+  "version": "1.0.0",
+  "description": "### **About:** Have you ever joined &/or led a Meetup Group and were really excited to get involved with the posted events?  Perhaps you were excited because there were a lot of people in the group who had that same interest as you!  However, when it came to RSVPing and attending an event, hardly enough people showed to truly call it event!  Bummer!  EventShip is an app that addresses that issue by creating a platform where interested people can vote on scheduling a particular event given some parameters.  Once there's enough votes, the event becomes a reality.  No more wondering if whether you'll be the only one attending, even if there's 100s of people who have signed up showing interest in meeting up BUT may.. actually... be robots.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenSchumann/EventShip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JenSchumann/EventShip/issues"
+  },
+  "homepage": "https://github.com/JenSchumann/EventShip#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
