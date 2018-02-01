@@ -4,11 +4,16 @@ const env = require('dotenv').config();
 
 app.use(express.static('public'));
 
-app.use(session({
-	secret: process.env.SECRET,
-	resave: false,
-	saveUninitialized: false
-}))
+//setting up basic GET route for testing
+// app.get('/getEvents', (request, response) => {
+// 	response.send('here are some events you requested info for...')
+// });
+
+// app.use(session({
+// 	secret: process.env.SECRET,
+// 	resave: false,
+// 	saveUninitialized: false
+// }))
 
 
 app.listen(3000, ()=>{
